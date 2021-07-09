@@ -1,6 +1,3 @@
-// Bài này giải theo phương pháp tham lam
-// Xem bài 14 trước
-
 #include <iostream>
 using namespace std;
 
