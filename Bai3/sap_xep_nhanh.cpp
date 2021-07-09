@@ -31,8 +31,10 @@ void quickSort(int a[], int left, int right) {
         // điều đó giúp ++i, --j như đã giải thích ở trên
     }
 
-    if (left < j) quickSort(a, left, j);
-    if (right > i) quickSort(a, i, right);
+    if (left < j)
+        quickSort(a, left, j);
+    if (right > i)
+        quickSort(a, i, right);
 }
 
 void print(int a[], int n) {

@@ -31,6 +31,6 @@ void Try(int i, int a[], int n, int k) {
 int main() {
     int a[MAX] = {0};
     int n = 5, k = 3;
-
+    // Tổ hợp chập 3 của 5
     Try(1, a, n, k);
 }

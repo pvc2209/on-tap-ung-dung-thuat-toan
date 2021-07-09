@@ -7,7 +7,7 @@ Hai băng nhớ b1, b2 có độ dài L = 10
 Trước tiên ta sắp xếp dãy d tăng dần
 => d = {1, 2, 3, 4, 5, 6, 7, 8}
 
-Ta lần lượt lấy tường chương trình từ trái qua phải thêm vào b1,
+Ta lần lượt lấy từng chương trình từ trái qua phải thêm vào b1,
 sau khi thêm 1 trương trình vào b1, ta lại quay sang thêm vào b2
 
 Bước 1: b1 = {1}

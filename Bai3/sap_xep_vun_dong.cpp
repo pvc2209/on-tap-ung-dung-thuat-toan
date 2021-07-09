@@ -15,6 +15,7 @@ void print(int a[], int n) {
     }
     cout << endl;
 }
+
 void pushDown(int a[], int i, int n) {
     int root = i;
     int left = 2 * i + 1;
@@ -74,7 +75,7 @@ void heapSort(int a[], int n) {
 }
 
 int main() {
-    int a[] = {2, 3, 1, 9, 4};
+    int a[] = {2, 3, 1, 9, 4, 10};
     int n = sizeof(a) / sizeof(a[0]);
 
     heapSort(a, n);

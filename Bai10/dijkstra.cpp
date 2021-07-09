@@ -18,7 +18,7 @@ int main() {
         for (int j = 1; j <= n; ++j) {
             cin >> matrix[i][j];
             if (matrix[i][j] == -1) {
-                matrix[i][j] = 999;
+                matrix[i][j] = INT_MAX;
             }
         }
     }
@@ -42,7 +42,7 @@ int main() {
         }
         cout << endl;
 
-        int min = 999;
+        int min = INT_MAX;
         int minIndex = -1;
 
         for (int i = 1; i <= n; ++i) {
@@ -64,6 +64,7 @@ int main() {
     }
 
     cout << "Do dai vet: " << a[k] << endl;
+
     // Truy vết
     int vitri = end;
     while (vitri != start) {
